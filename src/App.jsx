@@ -3,6 +3,7 @@ import React from "react";
 export default function Portfolio() {
   const skills = [
     "React JS",
+    "Next Js",
     "Redux Toolkit",
     "RTK Query",
     "JavaScript",
@@ -64,12 +65,14 @@ export default function Portfolio() {
           <p className="text-cyan-400 font-semibold mb-3">Hello, I'm</p>
 
           <h2 className="text-5xl md:text-6xl font-bold leading-tight mb-4">
-            <span className="text-slate-400">ReactJs Developer</span>
+            <span className="text-slate-400">React.js & Next.js Developer</span>
           </h2>
 
           <p className="text-slate-300 text-lg leading-8 mb-8">
-            I build scalable web applications, dashboards, ERP systems, and
-            high-performance user interfaces with modern technologies.
+            I specialize in building fast, scalable, and production-ready web
+            applications using React.js and Next.js. With strong experience in
+            dashboards, ERP systems, and API-driven architectures, I focus on
+            clean UI, performance optimization, and maintainable code.
           </p>
 
           <div className="flex gap-4">
@@ -108,8 +111,10 @@ export default function Portfolio() {
         <p className="text-slate-300 leading-8 text-lg max-w-4xl">
           I am a passionate React Developer with 2+ years of experience creating
           ERP systems, admin dashboards, billing applications, and optimized web
-          solutions. I specialize in frontend architecture, API integrations,
-          state management, and scalable code structure.
+          solutions. I specialize in frontend architecture, API
+          integrations,Strong experience in ERP & Dashboard systems,Focus on
+          performance and user experience state management, Clean, scalable, and
+          maintainable code.
         </p>
       </section>
 
@@ -128,10 +133,6 @@ export default function Portfolio() {
             >
               <h4 className="text-xl font-semibold mb-4">{item.title}</h4>
               <p className="text-slate-400 leading-7">{item.desc}</p>
-
-              <button className="mt-6 text-cyan-400 font-semibold hover:text-cyan-300">
-                View Details →
-              </button>
             </div>
           ))}
         </div>
